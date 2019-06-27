@@ -48,3 +48,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Pallet
+    uniqueID: 3697961835
+    locked: 0

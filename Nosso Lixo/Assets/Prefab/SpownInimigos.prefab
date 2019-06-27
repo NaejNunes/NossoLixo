@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3012784117520904034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3142412487403925128, guid: 9dd52365d742bbc4f8bf494ed14a8850,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3012784117520904037}
+  - component: {fileID: 3012784117520904036}
+  m_Layer: 0
+  m_Name: SpownInimigos
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3012784117520904037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3142412487403925129, guid: 9dd52365d742bbc4f8bf494ed14a8850,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3012784117520904034}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.780626, y: -0.8556899, z: 24.684875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3012784117520904036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3142412487403925126, guid: 9dd52365d742bbc4f8bf494ed14a8850,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3012784117520904034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c562ce6e59e23a4794f576cfc4cf327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soldadoCasca:
+  - {fileID: 1480694935832055221, guid: 2c1f601f94736d146845f46300d1abd6, type: 3}
+  - {fileID: 6298133231056213082, guid: e76073c7d993fcb46b52e53cf40e99bd, type: 3}
+  - {fileID: 7640032275246567458, guid: 3886ddda569df02409d56d5d4dd2549e, type: 3}
+  - {fileID: 4590315596918234097, guid: ec4391e4c10d0d348bf1570030980a66, type: 3}
